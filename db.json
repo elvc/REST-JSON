@@ -31,26 +31,31 @@
       "email": "ms@gmail.com",
       "age": "20",
       "companyId": "3"
+    },
+    {
+      "firstName": "Elvis",
+      "lastName": "Chan",
+      "age": "100",
+      "email": "elvis@elvis.com",
+      "company": "3",
+      "id": "HJ8n8NrF-"
     }
   ],
   "companies": [
     {
       "id": "1",
       "name": "Apple",
-      "description":
-        "Apple Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services."
+      "description": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services."
     },
     {
       "id": "2",
       "name": "Microsoft",
-      "description":
-        "Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington."
+      "description": "Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington."
     },
     {
       "id": "3",
       "name": "Google",
-      "description":
-        "Google is an American multinational technology company that specializes in Internet-related services and products. These include online advertising technologies, search, cloud computing, software, and hardware."
+      "description": "Google is an American multinational technology company that specializes in Internet-related services and products. These include online advertising technologies, search, cloud computing, software, and hardware."
     }
   ]
 }
