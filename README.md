@@ -9,8 +9,11 @@ Run it on `localhost:3000`
 
 ## You can do queries like:
 http://localhost:3000/companies?name=Apple
+
 http://localhost:3000/companies/1
+
 http://localhost:3000/companies/1/users
+
 http://localhost:3000/companies?_sort=votes&_order=asc
 
 ## You can add users by POST request (using POSTMAN, etc). For example to add a new user:
@@ -42,4 +45,10 @@ You will see that user has been added to the `users`. `"id"` has been automatica
 }
 ```
 
-You can do other REST methods like PUT, DELETE, GET, etc.
+You can do other REST methods like `PUT`, `DELETE`, `GET`, etc.
+
+---
+
+If you want to use remote schemas (dummy data), run:
+
+`npm run json:server:remote`
